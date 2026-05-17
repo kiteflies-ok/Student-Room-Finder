@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <!-- Location -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/etLocation"
+            android:hint="Enter Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edit_text_bg" />
+
+        <!-- Rent -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rent (₹)"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etRent"
+            android:hint="Enter Rent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edit_text_bg" />
+
+        <!-- Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room Description"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:hint="Enter Description"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:padding="12dp"
+            android:gravity="top"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edit_text_bg" />
+
+        <!-- Sharing Option -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sharing Option"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerSharingOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Image Upload -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room Image"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnUploadImage"
+            android:text="Upload Image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#4CAF50" />
+
+        <ImageView
+            android:id="@+id/ivRoomImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/ic_placeholder_image"
+            android:scaleType="centerCrop"
+            android:visibility="gone"/>
+
+        <!-- Google Maps -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room Location on Map"
+            android:textStyle="bold" />
+
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/btnPreview"
+            android:text="Preview Room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#FF9800"
+            android:elevation="4dp"
+            android:padding="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnPostRoom"
+            android:text="Post Room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#2196F3"
+            android:elevation="4dp"
+            android:padding="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+</ScrollView>
