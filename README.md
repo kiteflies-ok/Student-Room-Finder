@@ -10,6 +10,18 @@ A native Android application designed to help students find suitable accommodati
 - **Room Details**: Detailed view for individual room listings.
 - **Post a Room**: Users can post their own rooms to find roommates or tenants.
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="images/unnamed.png" width="200" />
+  <img src="images/unnamed (1).png" width="200" />
+  <img src="images/unnamed (2).png" width="200" />
+  <img src="images/unnamed (3).png" width="200" />
+  <img src="images/unnamed (4).png" width="200" />
+  <img src="images/unnamed (5).png" width="200" />
+  <img src="images/unnamed (6).png" width="200" />
+</p>
+
 ## 🛠 Tech Stack & Architecture
 
 - **Language**: Java
